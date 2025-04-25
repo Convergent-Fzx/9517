@@ -24,4 +24,31 @@ The project uses the [SkyView dataset](https://www.kaggle.com/datasets/ankit1743
 ### Imbalanced Data Handling
 - Long-tail distribution experiments
 
+## Requirements
 
+- Python 3.8+
+- PyTorch >= 2.0.0
+- pandas
+- torchvision
+- OpenCV
+- scikit-learn
+- scikit-image
+- matplotlib
+- seaborn
+- jupyterlab
+
+```bash
+pip install torch torchvision opencv-python scikit-learn scipy matplotlib seaborn numpy scikit-image jupyterlab
+```
+
+## How to run 
+
+1. Go into the project directory and make a directory called `res` to save the results
+   
+    ```bash
+      makedir res
+    ```
+
+2. Change the `img_dir` in each file to the actual directory saving Aerial Landscapes dataset, if you have clone the repo from github then this is not necessary
+
+3. Run those code blocks in jupyter notebooks
